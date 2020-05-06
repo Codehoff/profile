@@ -30,7 +30,7 @@ body {
 }
 
 div {
-  background: rgba(180,180,180,0.9);
+  background: rgba(180,180,180,0.95);
   padding: 30px;
   text-align: center;
   margin: auto;
@@ -40,7 +40,7 @@ div {
 }
 
 #Enno {
-  border-radius: 20%;
+  border-radius: 50%;
   width: 40%;
   height: 40%;
 }
@@ -55,7 +55,7 @@ div {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 700;
   color: #F7567C;
 }
@@ -79,15 +79,18 @@ p {
 li.img {
   display: inline;
   vertical-align: middle;
-  margin: 10px;
-  padding: 10px;
+  align-content: middle;
+  margin: 25px;
+  padding: 5px;
   width: 25%;
   height: 25%;
   border-radius: 25%;
+  image-orientation: 0deg
 }
 
 img {
   border-radius: 10%;
+  image-orientation: from-image;
 }
 
 li.icon {
